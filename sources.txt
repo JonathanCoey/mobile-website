@@ -1,0 +1,26 @@
+Ulster logo:
+https://www.ardmore.co.uk/projects/learn-your-way-at-ulster-university/
+
+Home icon:
+http://findicons.com/files/icons/1580/devine_icons_part_2/128/home.png
+
+HTML5 logo:
+https://www.w3.org/html/logo/downloads/HTML5_Logo_512.png
+
+CSS3 logo:
+http://rayz.io/images/css.png
+
+Geolocation logo:
+https://s-media-cache-ak0.pinimg.com/originals/c8/a9/5c/c8a95c41af8a7b2538759f5b9ee063ee.png
+
+font awesome:
+http://fontawesome.io/get-started/
+
+HTML5 slider:
+http://minimalcoding.net/wp-content/uploads/2015/07/html5-canvas-1200x500.jpg
+
+CSS3 slider:
+http://minimalcoding.net/wp-content/uploads/2015/06/css3-transition-1200x500.jpg
+
+JQuery Slider:
+http://www.jssor.com/

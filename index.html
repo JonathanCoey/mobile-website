@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Assignment 1</title>
+		<link href="style.css" rel="stylesheet" />
+		<link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+		<link rel="shortcut icon" type="image/png" href="img/favicon.png" /> 
+		<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css"> <!-- Image Slider -->
+		<script src="https://code.jquery.com/jquery-3.1.1.js"></script> <!-- Image Slider -->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script> <!-- Image Slider -->
+	</head>
+
+	<body>
+		<div id="wrapper">
+	<!---------- Start of Banner ---------->	
+			<div id="banner-wrapper">
+				<header>
+					<div id="header-inner">
+						<a href="index.html" id="logo"></a>
+						
+						<nav>
+							<a href="index.html" id="menu-icon"></a>
+							
+							<ul>
+								<li><a href="index.html" class="current">Home</a></li>
+								<li><a href="HTML5.html">HTML5</a></li>
+								<li><a href="CSS3.html">CSS3</a></li>
+								<li><a href="Geolocation.html">Geolocation</a></li>
+							</ul>
+							
+						</nav>
+						
+					</div> <!-- Header Inner -->
+				</header>
+			</div> <!-- Banner Wrapper -->
+	<!---------- End of Banner ---------->
+	
+	<!---------- Start of Slider ---------->
+	
+		<script src="js/jquery.bxslider.min.js"></script> <!--For Image Slider-->
+
+			<div class="slide-wrap">
+				<section class="slider">
+					<ul class="slider1">
+						<li><img src="img/html5-slider.png"></li>
+						<li><img src="img/css3-slider.png"></li>
+						<li><img src="img/geolocation-slider.png"></li>
+					</ul>
+				</section>
+			</div> <!-- Slide Wrap -->
+
+		<script type="text/javascript">
+			$('.slider1').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				
+			});
+			$('.slider2').bxSlider({
+				pager:false,
+				captions: true,
+				maxSlides: 3,
+				minSlides: 1,
+				slideWidth: 230,
+				slideMargin: 10
+			});
+			$('.slider3').bxSlider({
+				mode: 'fade',
+				captions: false,
+				auto:true,
+				pager:false,
+				controls:false,
+			});
+		</script>
+	
+	<!---------- End of Slider ---------->
+	
+	<!---------- Start of Left Column & Sidebar ---------->
+		<div class="clearfix-padding"></div>
+			<section class="left-column">
+				<p>Using this website I am going to provide you with mini-tutorials on the following topics:</p>
+					<ul class="left-column-list">
+						<li>HTML5 Programming Language</li>
+						<li>A description of the HTML5 Geolocation API</li>
+						<li>CSS3 Programming Language</li>
+					</ul>
+					
+				
+				<p>To learn more about these languages you can find links to navigate around the site both in the header and footer of this page.</p>
+				
+				<p><br>On this page I will now explain some of the biggest challenges that developers face when trying to design websites/applications for mobile devices.</p>
+			</section>
+			
+			<section class="sidebar">
+				<img src="img/learning.png">
+			</section>
+		
+	<!---------- End of Left Column & Sidebar ---------->
+	
+	<!---------- Start of Table ---------->
+	
+		<table id="table">
+			<tr>
+				<th>Challenges:</th>
+				<th>Why it's a challenge:</th>
+				<th>How it could be solved:</th>
+			</tr>
+			<tr>
+				<td>Standardisation</td>
+				<td>This is one of the biggest problems for web developers as there are no set standards for web development on mobile devices.</td>
+				<td>I believe that the best way to fix this problem would be to have a selection of the biggest web developers/companies to set a standard for web development that developers can work to.</td>
+			</tr>
+			<tr>
+				<td>Smaller Displays</td>
+				<td>Another of the biggest issues of web development is that developers are required to perform a lot of extra work to ensure that the work they're creating can be accessed from all devices.</td>
+				<td>The only true solution to this problem is when mobile device screen sizes eventually become standardised.</td>
+			</tr>
+			<tr>
+				<td>Speed</td>
+				<td>The issue with the speed can be both the processing power of the mobile device that it's running on and the speed in which the phone can retrieve the data from the internet. This can be a major problem as some web pages could take a very long time to load.</td>
+				<td>porn</td>
+			</tr>
+		</table>
+	
+	<!---------- End of Table ---------->
+
+	<!---------- Start of Right Column & Sidebar ---------->
+		<div class="clearfix-padding"></div>
+			<section class="right-column">
+				<p>Using this website I am going to provide you with mini-tutorials on the following topics:</p>
+					
+					
+				
+				<p>To learn more about these languages you can find links to navigate around the site both in the header and footer of this page.</p>
+			</section>
+			
+			<section class="right-sidebar">
+				<img src="img/web-mobile.png">
+			</section>
+		
+	<!---------- End of Right Column & Sidebar ---------->	
+	
+	<!---------- Start of Three Column Icons ---------->
+		<div class="clearfix-padding"></div>	
+			<section class="one-third">
+				<div class="icon-wrap">
+					<td><a href="html5.html"><i class="fa fa-html5"></i></a></td>
+					<h3><a href="html5.html">HTML5</a></h3>
+				</div> <!-- Icon Wrap -->
+			</section>
+			
+			<section class="one-third">
+				<div class="icon-wrap">
+					<td><a href="css3.html"><i class="fa fa-css3"></i></a></td>
+					<h3><a href="css3.html">CSS3</a></h3>
+				</div> <!-- Icon Wrap -->
+			</section>
+			
+			<section class="one-third">
+				<div class="icon-wrap">
+					<td><a href="geolocation.html"><i class="fa fa-map"></i></a></td>
+					<h3><a href="geolocation.html">Geo API</a></h3>
+				</div> <!-- Icon Wrap -->
+			</section>
+	<!---------- End of Three Column Icons ---------->
+	
+		</div> <!-- Wrapper -->
+		<div class="clearfix-padding"></div>
+	<!---------- Start of Footer ---------->
+			<footer>
+				<div id="banner-wrapper">
+					<div class="icon-text">
+						<div class="icon-text-text">
+							<ul class="footer-nav">
+								<li><a href="index.html">Home</a></li>
+								<li><a href="HTML5.html">HTML5</a></li>
+								<li><a href="CSS3.html">CSS3</a></li>
+								<li><a href="Geolocation.html">Geolocation</a></li>
+							</ul>
+						</div> <!-- Icon Text Text -->
+						
+						<div class="icon-text-icon">
+							<ul class="social">
+								<li><a href="mailto:jonathan.coey@yahoo.co.uk"><i class="fa fa-envelope"></i></a></li>
+								<li><a href="https://www.w3schools.com/html/html5_intro.asp"><i class="fa fa-html5"></i></a></li>
+								<li><a href="https://www.w3schools.com/css/css3_intro.asp"><i class="fa fa-css3"></i></a></li>
+								<li><a href="https://www.w3schools.com/html/html5_geolocation.asp"><i class="fa fa-map"></i></a></li>
+							</ul>
+						</div> <!-- Icon Text Icon -->
+						
+					</div> <!-- Icon Text -->
+					
+				</div> <!-- Banner Wrapper -->
+			</footer>
+			
+			<footer class="second">
+				<p>Created by Jonathan Coey &copy;</p>
+			</footer>
+	<!---------- End of Footer ---------->
+	</body>
+	
+</html>
+
+<!--  -->
